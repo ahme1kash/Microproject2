@@ -1,0 +1,279 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #6F6AF7;
+    height:67px;
+    /* margin-top:-16px; */
+    padding-top:1px;
+    position: relative
+}
+.nav-list{
+    font-family: 'DM Sans 400'; 
+    font-weight: 800;  
+    margin-top: -30px;
+    margin-left: 54px;
+    /* margin-right: -2px; */
+    justify-content:space-evenly;
+}
+nav li{
+    list-style: none;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    /* justify-content:space-evenly; */
+    color:#ffffff;
+    margin-top: -23px;
+}
+.dapper{
+   font-family: Delius Unicase ;
+   font-weight: bold;
+   font-size:xx-large;
+   color: #ffffff;
+   margin-left:30px;
+   margin-top: 8px;
+
+}
+.hamburger{
+    /* display: flexbox; */
+    margin-right: -124px;
+    margin-top: -11px;;
+}
+#search{
+    border-radius: 63px;
+    height:30px;
+    width: 100%;
+    border-color:white;
+    margin-bottom: 102px;
+}
+input {
+    text-indent: 10px; /* Adjust the indentation as needed */
+    margin-top:-6px;
+    margin-left: -8px;  
+    margin-right:32px;
+    font-size: large;
+  }
+  nav form {
+    display: flex;
+    height: 40px;
+    padding: -13px;
+    margin-left:-52px;
+    /* background: #1e232b; */
+    /* min-width: 18% !important; */
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba(155, 155, 155, 0.2); */
+  }
+  nav form .lens {
+    padding: -70px;
+    color: #cfcecedd;
+    margin-top: 4px;
+    /* margin-right:-45px;  */
+    margin-left: -65px;
+  }
+  .screen-pic{
+    margin-top: 75px;
+    margin-left: 120px;
+    width:500px;
+    height:507px;
+    ;
+  }
+.text-rectangle{
+    width: 730px;
+    height: 500px;
+    background-color: #E5D8FF; /* Use your preferred background color */
+    border: 2px solid #ffffff; /* Use your preferred border color */
+    margin-top: 100px; /* Add some margin for spacing */
+    margin-left: 55px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 15px rgb(199, 192, 192), -5px -5px 15px rgb(188, 184, 184);
+    color:#6F7373;
+    font-weight: 800;
+    font-size: larger;
+
+}
+
+.social{
+    margin-right: -300px;
+}
+main{
+    display:flex;
+}
+.assessment{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'DM sans';
+    color:#ffffff;
+    font-weight: 800;
+    font-size: larger;
+}
+.evaluation_rect1{
+    margin-top: 110px;
+    margin-left: 26px;
+    width: 230px;
+    height: 100px;
+    background-color: #929DFF;
+    border-radius: 11px;
+    box-shadow: 5px 5px 5px rgb(201, 194, 194), -5px -5px 25px rgba(255, 255, 255, 0.8);
+}
+.evaluation_rect2{
+    margin-top: 110px;
+    margin-left: 20px;
+    width: 230px;
+    height: 100px;
+    background-color:#734CF2;
+    ;
+    border-radius: 11px;
+    box-shadow: 5px 5px 5px rgb(201, 194, 194), -5px -5px 25px rgba(255, 255, 255, 0.8);
+}
+.evaluation_rect3{
+    margin-top: 110px;
+    margin-left: 20px;
+    width: 230px;
+    height: 100px;
+    background-color:#D288FF;
+    ;
+    border-radius: 11px;
+    box-shadow: 5px 5px 5px rgb(201, 194, 194), -5px -5px 25px rgba(255, 255, 255, 0.8);
+}
+.evaluation_rect4{
+    margin-top: 110px;
+    /* display:flex; */
+    margin-left: 20px;
+    width: 230px;
+    height: 100px;
+    background-color: #000000;
+    ;
+    border-radius: 11px;
+    box-shadow: 5px 5px 5px rgb(201, 194, 194), -5px -5px 25px rgba(255, 255, 255, 0.8);
+    /* overflow: visible; */
+}
+.speaker{
+    margin-bottom: 800px;
+    width:auto; 
+    height:auto;
+    margin-left:6.4em;
+    margin-top:-3.5em;
+    box-sizing: border-box; 
+    max-width: 210%; 
+    height:7em;
+
+}
+.cards {
+    width:56em;
+    height:24em; /* Set the desired height */
+    resize: none; /* Prevent users from resizing the textarea */
+    margin-left: 110px;
+    margin-top: 120px;
+    border-radius: 20px;
+    background-color: #483EFF;
+    display:grid;
+    position: relative;
+    font-family: 'DM Sans 400'; 
+    font-weight: 900; 
+    font-size: x-large;
+    position:relative;
+    /* gap:20px; */
+  }
+  .card1{
+        /* padding-top: 60px; */
+        /* margin-bottom: 100px; */
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 230px;
+        height: 100px;
+        background-color:#BCE0F6;
+        color:#000000;
+        border-radius: 11px;
+        box-shadow: 0px 0px 0px rgb(249, 249, 249)
+        /* padding-top:30px; */
+    }
+  .card2{
+    
+        margin-top: 80px;
+        margin-left: 20px;
+        width: 230px;
+        height: 100px;
+        color:#ffffff;
+        background-color:#483EFF;
+        ;
+        border:4px solid white;
+        border-radius: 11px;
+        box-shadow: 0px 0px 0px rgb(249, 249, 249);   
+        border-color: rgb(255, 255, 255); 
+        /* border-width:20px; */
+  } 
+  .card3{
+    
+        margin-top: 80px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        width: 230px;
+        height: 100px;
+        color:#ffffff;
+        background-color:#483EFF;
+        border-color: rgb(255, 255, 255);  
+        border-radius: 11px;
+        box-shadow: 0px 0px 0px rgb(249, 249, 249);
+        border:4px solid white;
+        /* border-width:20px; */
+    }
+
+  .card1 pre{
+    margin-left: 40px;
+    margin-top:40px;
+  }
+  .card2 pre{
+    margin-left: 40px;
+    margin-top:40px;
+  }
+  .card3 pre{
+    margin-left: 40px;
+    margin-top:40px;
+  }
+  .text1{
+    width:42em;
+    height:22em;
+    background-color: rgb(255, 255, 255);
+  }
+  footer div{
+    
+    margin-top:-22.8em;
+    margin-left: 13em;
+    border-radius: 8px;
+  }
+  h4{
+    font-family: 'Inter', sans-serif;
+    margin-left: 2em;
+    margin-top: 2em;
+    /* font-size:larger; */
+  }
+  span pre{
+    margin-left:3.5em;
+  }
+ .bio1,.bio2,.bio3,.bio4{
+    display:flex;
+  }
+  .outer{
+    font-family: 'Roboto';
+  }
+#value1,#value2,#value3,#value4{
+    font-weight: 200;
+    margin-left: 20px;;
+}
+button{
+    background-color: #000000;
+    width: 8em;
+    height:3.5em;
+    color:#ffffff;
+    border-radius: 10px;
+    margin-left: 52.7em;
+    margin-top: 5em;
+    font-weight: 600;
+    font-size: medium;
+    font-family: 'Roboto';
+    
+}
